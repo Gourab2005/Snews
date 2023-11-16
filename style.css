@@ -1,0 +1,140 @@
+/* Global CSS */
+body {
+    height: 1000px;
+    /* overflow: hidden is used to hide scrollbar */
+    overflow: hidden;
+    background-color: rgb(53, 51, 51);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Designing header */
+.header {
+    background-color: rgb(3, 146, 202);
+    position: absolute;
+    height: 8vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    /* position:fixed is used to fix navbar (non movable in srolling) */
+    position: fixed;
+}
+
+.logotext {
+    /* centering from top and bottom */
+    top: 50%;
+    transform: translate(0%, -50%);
+    padding-left: 2.5vh;
+    /* padding: 2.5vh; */
+    color: aliceblue;
+    font-size: 100%;
+    display: inline-block;
+    position: absolute;
+}
+
+.menu {
+    /* centering from top and bottom */
+    top: 50%;
+    transform: translate(-0%, -50%);
+    /*  */
+    display: inline-block;
+    position: absolute;
+    margin-left: 30vw;
+    top: 50%;
+
+}
+
+.menutext a {
+    color: aliceblue;
+}
+
+.menutext {
+    color: white;
+    font-size: 110%;
+    display: inline-block;
+    margin-left: 3vw;
+}
+
+/* left login and Registration button designing */
+.menuright {
+    display: block;
+    position: absolute;
+    margin-left: 80vw;
+    top: 50%;
+    transform: translate(-0%, -50%);
+}
+
+.menuright a {
+    color: white;
+}
+
+.rmenutext {
+    color: white;
+    font-size: 110%;
+    display: inline-block;
+    margin-right: 3vw;
+}
+
+/* designing footer part */
+
+.footer {
+    background-color: rgb(3, 107, 159);
+    position: absolute;
+    height: 8vh;
+    width: 100vw;
+    top: 100vh;
+    transform: translate(-0%, -100%);
+    left: 0;
+    /* position:fixed is used to fix navbar (non movable in srolling) */
+    position: fixed;
+}
+
+/* Designing diffrent topic bar */
+.topicswitcher {
+    background-color: aliceblue;
+    position: absolute;
+    height: 5vh;
+    width: 100vw;
+    left: 0;
+    top: 8vh;
+}
+
+.topicswitcher {
+    position: absolute;
+}
+
+.topicswitcheritem {
+    top: 50%;
+    transform: translate(-0%, -39%);
+    display: inline-block;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 0.75vw;
+    padding-right: 0.75vw;
+    background-color: rgb(215, 31, 6);
+}
+
+.topicswitcheritem a {
+    color: white;
+}
+
+#homeh1 {
+    display: inline-block;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+}
+
+#homealeart {
+    display: inline-block;
+    position: absolute;
+    margin-left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+}
